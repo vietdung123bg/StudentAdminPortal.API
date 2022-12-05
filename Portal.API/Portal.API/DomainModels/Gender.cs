@@ -1,4 +1,4 @@
-﻿namespace Portal.API.DataModels
+﻿namespace Portal.API.DomainModels
 {
     public class Gender
     {

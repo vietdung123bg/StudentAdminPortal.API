@@ -1,6 +1,6 @@
-﻿using System.Reflection;
+﻿
 
-namespace Portal.API.DataModels
+namespace Portal.API.DomainModels
 {
     public class Student
     {
@@ -20,7 +20,6 @@ namespace Portal.API.DataModels
 
         public Guid GenderId { get; set; }
 
-        // Navigation Properties
         public Gender Gender { get; set; }
         public Address Address { get; set; }
     }

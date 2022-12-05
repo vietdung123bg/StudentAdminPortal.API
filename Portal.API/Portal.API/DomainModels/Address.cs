@@ -1,4 +1,4 @@
-﻿namespace Portal.API.DataModels
+﻿namespace Portal.API.DomainModels
 {
     public class Address
     {
@@ -8,8 +8,6 @@
 
         public string? PostalAddress { get; set; }
 
-        // Navigation Properties
         public Guid StudentId { get; set; }
     }
 }
-
